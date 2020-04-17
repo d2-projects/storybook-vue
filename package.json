@@ -6,7 +6,9 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint --fix",
-    "commit": "git add . && git cz"
+    "git-add-all": "git add .",
+    "git-cz": "git cz",
+    "git-push-master": "git push origin master"
   },
   "dependencies": {
     "core-js": "^3.6.4",
