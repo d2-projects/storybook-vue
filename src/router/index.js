@@ -10,7 +10,7 @@ const views = []
 const vueFiles = require.context('@/views', true, /page\.vue$/)
 vueFiles.keys().forEach(key => {
   const component = vueFiles(key).default
-  const routePath = path.dirname(component.__file).replace(/^src\/views\//, '')
+  const routePath = path.dirname(component.__source).replace(/^src\/views\//, '')
   const routeName = routePath.replace(path.sep, '-')
   views.push({
     name: routeName,
