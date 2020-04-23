@@ -16,7 +16,7 @@ See the document for other additional optimizations.
 
 ## Document
 
-document on [https://d2.pub](https://d2.pub/zh/doc/d2-admin/)
+document on [https://d2.pub](https://d2.pub/zh/doc/storybook-vue/)
 
 ## Preview
 
