@@ -1,6 +1,6 @@
 {
   "name": "quick-run-vue",
-  "version": "1.6.0",
+  "version": "1.7.0",
   "private": true,
   "scripts": {
     "build": "vue-cli-service build --report",
