@@ -6,6 +6,9 @@
     background-color: #051428;
     user-select: none;
     cursor: pointer;
+    .overlay {
+      height: 100%;
+    }
     .el-menu {
       border-right: none;
       .el-menu-item {
@@ -34,14 +37,24 @@ export default {
     const node =
       <div class="layout-main" flex="dir:left">
         <div class="layout-main--side" flex-box="0">
-          <el-menu
-            default-active={ this.$route.path }
-            background-color="#051428"
-            text-color="#969CA5"
-            active-text-color="#FFF"
-            router>
-            { this.menus.map(menu => createMenu(menu)) }
-          </el-menu>
+          <overlay-scrollbars
+            class="overlay os-theme-light"
+            options={
+              {
+                scrollbars: {
+                  autoHide: 'scroll'
+                }
+              }
+            }>
+            <el-menu
+              default-active={ this.$route.path }
+              background-color="#051428"
+              text-color="#969CA5"
+              active-text-color="#FFF"
+              router>
+              { this.menus.map(menu => createMenu(menu)) }
+            </el-menu>
+          </overlay-scrollbars>
         </div>
         <div flex-box="1">
           <router-view/>

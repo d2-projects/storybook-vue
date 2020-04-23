@@ -6183,6 +6183,16 @@ os-tmpdir@~1.0.2:
   resolved "https://registry.npm.taobao.org/os-tmpdir/download/os-tmpdir-1.0.2.tgz#bbe67406c79aa85c5cfec766fe5734555dfa1274"
   integrity sha1-u+Z0BseaqFxc/sdm/lc0VV36EnQ=
 
+overlayscrollbars-vue@^0.2.2:
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/overlayscrollbars-vue/-/overlayscrollbars-vue-0.2.2.tgz#4a3d4eaf09dbbaae8c52ff0e9219909075eb920e"
+  integrity sha512-JpDkM+fkNp7YbZxZNf9cbSWCa1tylaSUkmdhux+qtVFekH4zpZpM8+GRtOgs7YDDWyVNPkUBQ8FnMRMoBNfoJw==
+
+overlayscrollbars@^1.12.0:
+  version "1.12.0"
+  resolved "https://registry.yarnpkg.com/overlayscrollbars/-/overlayscrollbars-1.12.0.tgz#e3e257bbb8a179760c2c712ad08ac2c78583c9f6"
+  integrity sha512-zJGYLeBfaPx2VmiDfBMNTPzm9N8w8wZ6M7dm1ee8TGuet8tsK4nxOzGvEEu0SmueqMHQxhLsstf7iTWCGiYa9Q==
+
 p-defer@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npm.taobao.org/p-defer/download/p-defer-1.0.0.tgz#9f6eb182f6c9aa8cd743004a7d4f96b196b0fb0c"
