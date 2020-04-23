@@ -10,7 +10,7 @@ module.exports = {
   css: {
     loaderOptions: {
       sass: {
-        prependData: `@import '~@/assets/style/public.scss';`
+        prependData: '@import \'~@/assets/style/public.scss\';'
       }
     }
   },
@@ -18,5 +18,11 @@ module.exports = {
     VueFilenameInjector(config, {
       propName: '__source'
     })
+  },
+  pluginOptions: {
+    autoRouting: {
+      chunkNamePrefix: 'page-',
+      nested: false
+    }
   }
 }
