@@ -56,6 +56,7 @@ export default {
             <router-view/>
           </overlay-scrollbars>
         </div>
+        <d2-ribbon/>
       </div>
     return node
   },

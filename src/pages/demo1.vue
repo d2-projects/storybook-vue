@@ -1,6 +1,6 @@
 <route-meta>
 {
-  "title": "DEMO FOLDER 1"
+  "title": "DEMO 1"
 }
 </route-meta>
 

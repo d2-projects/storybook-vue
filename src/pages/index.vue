@@ -1,6 +1,6 @@
 <route-meta>
 {
-  "title": "首页"
+  "title": "HOME"
 }
 </route-meta>
 

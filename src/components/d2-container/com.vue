@@ -1,5 +1,5 @@
 <style lang="scss">
-.container {
+.d2-container {
   background-color: #FFF;
   margin: 30px auto;
   padding: 20px;
@@ -9,13 +9,13 @@
 </style>
 
 <template>
-  <div class="container">
+  <div class="d2-container">
     <slot/>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'container'
+  name: 'd2-container'
 }
 </script>

@@ -5,7 +5,7 @@
 </route-meta>
 
 <template>
-  <container>
-    {{ $route.name }}
-  </container>
+  <d2-container>
+    In the demo2 folder, but this page does not generate a cascading menu
+  </d2-container>
 </template>
