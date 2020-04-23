@@ -7,7 +7,7 @@ export default ({ api }) => ({
   },
   getters: {
     /**
-     * @description 介绍
+     * @description description
      * @example $store.getters['template/getterName']
      * @example this.$store.getters['template/getterName']
      */
@@ -17,7 +17,7 @@ export default ({ api }) => ({
   },
   actions: {
     /**
-     * @description 介绍
+     * @description description
      * @param {Object} context context
      * @param {Object} payload payload
      * @example $store.dispatch('template/actionName')
@@ -27,7 +27,7 @@ export default ({ api }) => ({
   },
   mutations: {
     /**
-     * @description 介绍
+     * @description description
      * @param {Object} state state
      * @param {Object} payload payload
      * @example $store.commit('template/mutationName')
