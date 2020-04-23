@@ -5,7 +5,7 @@
 </route-meta>
 
 <template>
-  <div>
+  <container>
     home
-  </div>
+  </container>
 </template>

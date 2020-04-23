@@ -5,7 +5,7 @@
 </route-meta>
 
 <template>
-  <div>
+  <container>
     {{ $route.name }}
-  </div>
+  </container>
 </template>

@@ -2,13 +2,10 @@
 .layout-main {
   height: 100%;
   .layout-main--side {
-    width: 200px;
+    width: 260px;
     background-color: #051428;
     user-select: none;
     cursor: pointer;
-    .overlay {
-      height: 100%;
-    }
     .el-menu {
       border-right: none;
       .el-menu-item {
@@ -17,6 +14,12 @@
         }
       }
     }
+  }
+  .layout-main--body {
+    background-color: #F0F2F5;
+  }
+  .overlay {
+    height: 100%;
   }
 }
 </style>
@@ -37,15 +40,7 @@ export default {
     const node =
       <div class="layout-main" flex="dir:left">
         <div class="layout-main--side" flex-box="0">
-          <overlay-scrollbars
-            class="overlay os-theme-light"
-            options={
-              {
-                scrollbars: {
-                  autoHide: 'scroll'
-                }
-              }
-            }>
+          <overlay-scrollbars class="overlay os-theme-light" options={ { scrollbars: { autoHide: 'scroll' } } }>
             <el-menu
               default-active={ this.$route.path }
               background-color="#051428"
@@ -56,8 +51,10 @@ export default {
             </el-menu>
           </overlay-scrollbars>
         </div>
-        <div flex-box="1">
-          <router-view/>
+        <div class="layout-main--body" flex-box="1">
+          <overlay-scrollbars class="overlay" options={ { scrollbars: { autoHide: 'scroll' } } }>
+            <router-view/>
+          </overlay-scrollbars>
         </div>
       </div>
     return node
