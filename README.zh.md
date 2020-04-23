@@ -2,7 +2,7 @@
 
 ![Deploy](https://github.com/d2-projects/quick-run-vue/workflows/Deploy/badge.svg)
 
-[中文](./README.zh.md) | **English**
+**中文** | [English](./README.md)
 
 ## Features
 
