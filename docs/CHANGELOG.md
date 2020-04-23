@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+# [1.9.0](https://github.com/d2-projects/storybook-vue/compare/v1.8.0...v1.9.0) (2020-04-23)
+
+
+### Features
+
+* add d2-source component ([b971b7a](https://github.com/d2-projects/storybook-vue/commit/b971b7abd75c58a53240dd95f09159f8976ce0c2))
+
 # [1.8.0](https://github.com/d2-projects/storybook-vue/compare/v1.7.0...v1.8.0) (2020-04-23)
 
 
