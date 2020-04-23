@@ -1,9 +1,9 @@
 <style lang="scss">
-.d2-source {}
+.source-code {}
 </style>
 
 <template>
-  <a :href="href" target="_blank" class="d2-source">
+  <a :href="href" target="_blank" class="source-code">
     <slot/>
   </a>
 </template>
@@ -12,7 +12,7 @@
 import { get, last } from 'lodash'
 
 export default {
-  name: 'd2-source',
+  name: 'source-code',
   data () {
     return {
       source: ''

@@ -1,34 +1,34 @@
 <style lang="scss">
-.d2-container {
+.story-container {
   $space: 20px;
   $border: 1px solid $color-border-4;
   background-color: #FFF;
   margin: $space * 2 auto;
   max-width: 1000px;
   border-radius: 2px;
-  .d2-container--header {
+  .story-container--header {
     padding: $space * 0.75 $space;
     border-bottom: $border;
   }
-  .d2-container--footer {
+  .story-container--footer {
     padding: $space * 0.75 $space;
     border-top: $border;
   }
-  .d2-container--body {
+  .story-container--body {
     padding: $space;
   }
 }
 </style>
 
 <template>
-  <div class="d2-container">
-    <div v-if="$slots.header" class="d2-container--header">
+  <div class="story-container">
+    <div v-if="$slots.header" class="story-container--header">
       <slot name="header"/>
     </div>
-    <div class="d2-container--body">
+    <div class="story-container--body">
       <slot/>
     </div>
-    <div v-if="$slots.footer" class="d2-container--footer">
+    <div v-if="$slots.footer" class="story-container--footer">
       <slot name="footer"/>
     </div>
   </div>
@@ -36,6 +36,6 @@
 
 <script>
 export default {
-  name: 'd2-container'
+  name: 'story-container'
 }
 </script>

@@ -5,7 +5,7 @@
 </route-meta>
 
 <template>
-  <d2-container>
+  <story-container>
     <el-alert
       slot="header"
       :title="`$route.name: ${$route.name}`"
@@ -14,11 +14,11 @@
     In the demo2 folder,
     but this page does not generate a cascading menu.
     <div slot="footer" flex="main:center">
-      <d2-source>
+      <source-code>
         <el-button type="text" size="mini" icon="el-icon-link">
           Source code of this page
         </el-button>
-      </d2-source>
+      </source-code>
     </div>
-  </d2-container>
+  </story-container>
 </template>

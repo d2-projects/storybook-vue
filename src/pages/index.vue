@@ -5,7 +5,7 @@
 </route-meta>
 
 <template>
-  <d2-container>
+  <story-container>
     home
-  </d2-container>
+  </story-container>
 </template>

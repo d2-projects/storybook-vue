@@ -1,5 +1,5 @@
 <style lang="scss">
-.d2-ribbon {
+.github-ribbon {
   position: fixed;
   top: 0px;
   right: 0px;
@@ -14,14 +14,14 @@
 </style>
 
 <template>
-  <a :href="repository" target="_blank" class="d2-ribbon">
+  <a :href="repository" target="_blank" class="github-ribbon">
     <img src="./assets/ribbon@2x.png" draggable="false"/>
   </a>
 </template>
 
 <script>
 export default {
-  name: 'd2-ribbon',
+  name: 'github-ribbon',
   data () {
     return {
       repository: process.env.VUE_APP_REPOSITORY
