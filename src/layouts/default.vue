@@ -3,20 +3,20 @@
   height: 100%;
   .layout-main--side {
     width: 260px;
-    background-color: #051428;
+    background-color: $color-bg-dark;
     user-select: none;
     cursor: pointer;
     .el-menu {
       border-right: none;
       .el-menu-item {
         &.is-active {
-          background-color: #458DF8 !important;
+          background-color: $color-primary !important;
         }
       }
     }
   }
   .layout-main--body {
-    background-color: #F0F2F5;
+    background-color: $color-bg;
   }
   .overlay {
     height: 100%;
@@ -30,13 +30,22 @@ import { menus } from '@/router'
 export default {
   name: 'layout-main',
   render () {
-    const createMenu = menu => menu.children ? createGroup(menu) : createItem(menu)
-    const createItem = menu => <el-menu-item index={ menu.path }>{ menu.title }</el-menu-item>
-    const createGroup = menu =>
-      <el-submenu index={ menu.path }>
-        <template slot="title">{ menu.title }</template>
+    function createMenu (menu) {
+      return menu.children ? createGroup(menu) : createItem(menu)
+    }
+    function createItem (menu) {
+      return <el-menu-item index={ menu.path }>
+        { menu.title }
+      </el-menu-item>
+    }
+    function createGroup (menu) {
+      return <el-submenu index={ menu.path }>
+        <template slot="title">
+          { menu.title }
+        </template>
         { menu.children.map(child => createMenu(child)) }
       </el-submenu>
+    }
     const node =
       <div class="layout-main" flex="dir:left">
         <div class="layout-main--side" flex-box="0">
