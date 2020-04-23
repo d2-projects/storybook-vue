@@ -6,42 +6,18 @@
 
 ## Features
 
-Achieve the following goals with the fastest speed:
+帮助你在最短的时间内实现以下功能：
 
-* Quickly start writing a series of page code based on vuejs
-* Automatically generate nested menus for accessing pages
-* Automatically deploy websites on GitHub for preview and sharing
+* 基于 vuejs 快速开始编写一系列页面代码
+* 根据文件结构自动生成所有页面的嵌套菜单
+* 在 GitHub 上自动部署网站方便预览和分享
 
-See the document for other additional optimizations.
+有关其他优化，请参阅文档。
 
-## Document
+## 文档
 
-document on [https://d2.pub](https://d2.pub/zh/doc/storybook-vue/)
+在 [https://d2.pub](https://d2.pub/zh/doc/storybook-vue/) 上的本项目文档
 
-## Preview
+## 预览
 
 [https://d2-projects.github.io/storybook-vue](https://d2-projects.github.io/storybook-vue)
-
-## Project setup
-
-```
-yarn
-```
-
-### Compiles and hot-reloads for development
-
-```
-yarn dev
-```
-
-### Compiles and minifies for production
-
-```
-yarn build
-```
-
-### Lints and fixes files
-
-```
-yarn lint
-```

@@ -21,27 +21,3 @@ document on [https://d2.pub](https://d2.pub/zh/doc/storybook-vue/)
 ## Preview
 
 [https://d2-projects.github.io/storybook-vue](https://d2-projects.github.io/storybook-vue)
-
-## Project setup
-
-```
-yarn
-```
-
-### Compiles and hot-reloads for development
-
-```
-yarn dev
-```
-
-### Compiles and minifies for production
-
-```
-yarn build
-```
-
-### Lints and fixes files
-
-```
-yarn lint
-```
