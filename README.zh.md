@@ -1,6 +1,6 @@
 # Quick Run Vue
 
-![Deploy](https://github.com/d2-projects/quick-run-vue/workflows/Deploy/badge.svg)
+![Deploy](https://github.com/d2-projects/storybook-vue/workflows/Deploy/badge.svg)
 
 **中文** | [English](./README.md)
 
@@ -20,7 +20,7 @@ document on [https://d2.pub](https://d2.pub/zh/doc/d2-admin/)
 
 ## Preview
 
-[https://d2-projects.github.io/quick-run-vue](https://d2-projects.github.io/quick-run-vue)
+[https://d2-projects.github.io/storybook-vue](https://d2-projects.github.io/storybook-vue)
 
 ## Project setup
 
