@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+# [1.8.0](https://github.com/d2-projects/storybook-vue/compare/v1.7.0...v1.8.0) (2020-04-23)
+
+
+### Features
+
+* d2-ribbon ([7b98ee7](https://github.com/d2-projects/storybook-vue/commit/7b98ee74f404c8cecceaf81c4b6172d7b74b453b))
+
 # [1.7.0](https://github.com/d2-projects/storybook-vue/compare/v1.6.0...v1.7.0) (2020-04-23)
 
 
